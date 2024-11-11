@@ -1,0 +1,103 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: aliceblue;
+    background-image: url(img/dementador.gif);
+    background-size: cover;
+}
+
+#body2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: aliceblue;
+    background-image: url(img/alice.gif);
+    background-size: cover;
+}
+
+
+.tituloMenor{
+    font-size: 14px;
+}
+
+#titulo1{
+    line-height: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.botao{
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.filho {
+    align-items: center;
+}
+
+/* assim importamos uma fonte em css */
+@font-face {
+    font-family: 'romantic';
+    src: url(fonte/romantic.otf) format("truetype");
+}
+
+.tituloMenor {
+    font-size: 14px;
+}
+
+#titulo1{
+    line-height: 15px;
+    font-family: "romantic";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(21, 40, 65, 0.446);
+    box-shadow: 0 0 20px 10px rgb(13, 48, 68); /* Cria a borda suave com efeito de luz verde */
+    background-size: cover;
+}
+
+.botao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: black;
+    background-color: rgb(57, 104, 128);
+    border: none;
+}
+
+.botao:hover {
+    background-color: #305a8a;
+    color: #2b6495;
+    
+    text-shadow: 0 0 10px #30899d;
+}
